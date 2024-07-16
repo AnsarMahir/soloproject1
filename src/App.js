@@ -1,24 +1,10 @@
-import Navbar from './components/Navbar';
-import Main from './components/Main';
+import Info from "./components/Info";
 function App() {
   return (
-    <div>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-<Navbar/>
-<Main/>
+    <div className="container">
+      <div className="card">
+      <Info/>
+      </div>
     </div>
   );
 }
