@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color:#282D35;
+  color: #ffffff;
+  font-family:Inter,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  color: aliceblue;
+  height: 90px;
+  padding: 30px 25px;
+
+}
+.nav--logo_text{
+  color:#61DAFB;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22;
+}
+.nav--logo_text .nav--title{
+  margin: 0;
+}
+.nav--title{
+  color:#DEEBF8;
+  font-weight: 600;
+}
+
+.body--title .body--list{
+  margin-left: 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(190, 190, 190);
+  color: white;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav--icon{
+  height: 30px;
+  margin-right: 7px;
+}
+main{
+  padding: 57px 27px;
+  color: white;
+  background-image: url('./images/reactjs-icon\ 2.png');
+  /* background-position-x: right; */
+  background-position: right;
+  background-repeat:no-repeat;
+}
+.main--title{
+  margin:0; 
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main--list{
+  margin-top: 46px;
+  max-width: 400px;
+}
+.main--list > li{
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main--list > li::marker{
+  font-size: 1.4rem;
+  color: #61DAFB;
+} 
