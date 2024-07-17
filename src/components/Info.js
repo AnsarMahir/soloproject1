@@ -11,14 +11,10 @@ export default function Info(){
         <div className="buttons">
             <div className="action_btn">
             <button  className="btn_email"  ><i className="fa fa-envelope"></i>Email</button>
-            <button  className="btn_linkedin" ><i className="fab fa-linkedin linkedin-icon"></i>Linkedin</button>
+            <button  className="btn_linkedin" ><i className="fab fa-linkedin linkedin-icon"></i>LinkedIn</button>
             </div>
         </div>
-
     </div>
-    
-    
-    
     )
    
 }
